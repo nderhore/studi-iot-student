@@ -2,7 +2,7 @@ import json
 import sqlite3 as sql
 import paho.mqtt.client as mqtt
 
-db = "bdd/temperature.sql"
+db = "./bdd/temperature.sql"
 
 alerte_min = "ALERTE - temperature inferieur a 23"
 alerte_max = "ALERTE - temperature superieur ou egale à 24"
